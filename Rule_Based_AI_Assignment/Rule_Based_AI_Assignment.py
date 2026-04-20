@@ -10,8 +10,8 @@ print("Enter: 'Bye' or 'Exit' to exit the AI recommendation assistant\n\n")
 exit = False
 
 
-# User input
 while True:
+    # User input
     user_input = input("What type of movie or show would you like to watch next? ").lower()
 
     # Movie lists
@@ -46,7 +46,7 @@ while True:
         "Blade Runner 2049"
     ]
 
-    # Store matches
+    # Recommendations map
     recommendations = {}
 
     # Rule-based keyword checks
@@ -85,11 +85,16 @@ while True:
         print("- John Wick")
         print("\n")
 
+    
+    if "thank you" in user_input or "thanks" in user_input:
+        print("Your very welcome!\n")
+
     if "bye" in user_input or "exit" in user_input:
         exit = True
 
     if exit == True:
         break
 
+# Say Goodbye
 print("\nThanks for using the Movie/Show Recommendation System! See you again soon!\n\n")
 
