@@ -101,31 +101,52 @@ If input contains "exit" or "bye"
 
   ---
 
-## Part 3 - Rules
+## Part 3 - Rules/Logic for the Chosen System
 
 **Sample Input & Output:**
 ```text
+Test Case 1 - 
 Input: Can you provide movies and shows that are funny or/and action pact
+
 Output: 
 - Movie/Recommendations -
-Comedy:
-Superbad
-Talladega Nights
-Step Brothers
-	Action:
-One Piece
-John Wick
-Mad Max
-Die Hard
 
+Comedy:
+	Superbad
+	Talladega Nights
+	Step Brothers
+
+Action:
+	One Piece
+	John Wick
+	Mad Max
+	Die Hard
+
+Test Case 2 -
 Input: Thank you
+
 Output: 
 No Genre Found
+
 Default Recommendations -
-1. …
-2. …
-3. …
+	1. …
+	2. …
+	3. …
+
 You're welcome!
+
+Test Case 3 -
+Input: exit
+
+Output:
+No Genre Found
+
+Default Recommendations -
+	1. …
+	2. …
+	3. …
+
+Thanks for using the Movie/Show Recommendation System! See you again soon!
 ```
 ---
 
